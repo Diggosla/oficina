@@ -1,7 +1,5 @@
-body {
-    background: url(fundo.jpg);
-    background-size: 1620px;
-}
+
+
 
 .inicio {
 
@@ -128,7 +126,7 @@ body {
 
 /*======== reponsivo css =======*/
 
-@media only screen and (max-width:768px) and (max-width:991px) {
+/* @media only screen and (max-width:768px) and (max-width:991px) {
     .carousel-caption {
         bottom:  370px ;
     }
@@ -157,4 +155,4 @@ body {
     .carousel-caption p {
         width: 100%;
     }
-}
+} */
