@@ -48,7 +48,7 @@ include"../includes/conexao.php";
     <td>
         <a href="#">Visualizar</a>
         <a href="#">Editar</a>
-        <a href="#">Excluir</a>
+        <a href="deletar.php?id=<?php echo $um_aluno['id'];?>">Excluir</a>
     </td>
  </tr>
     <?php
