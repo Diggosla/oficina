@@ -14,12 +14,6 @@ include"../includes/conexao.php";
 <br>
 <table class="table table-bordered table-dark ">
     <tr>
-        <td>Codigo</td>
-        <td>nome</td>
-        <td>Data</td>
-        <td>CPF</td>
-        <td>Telefone</td>
-        <td>Cidade</td>
         <td>veículo</td>
         <td>Cor</td>
         <td>modelo</td>
@@ -34,12 +28,6 @@ include"../includes/conexao.php";
     while($um_aluno = mysqli_fetch_assoc($todos_os_carros)):        
     ?>
     <tr >
-    <td><?php echo $um_aluno['id']; ?></td>
-    <td><?php echo $um_aluno['nome'];?></td>
-    <td><?php echo $um_aluno['data_nacimento']; ?></td>
-    <td><?php echo $um_aluno['cpf'];?></td>
-    <td><?php echo $um_aluno['telefone'];?></td>
-    <td><?php echo $um_aluno['cidade']; ?></td>
     <td><?php echo $um_aluno['veicolo'];?></td>
     <td><?php echo $um_aluno['cor']; ?></td>
     <td><?php echo $um_aluno['modelo'];?></td>
