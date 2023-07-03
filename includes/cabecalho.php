@@ -24,12 +24,12 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="btn btn btn-outline-ligh" aria-current="page" href="#">Cadastrar carro</a>
+                <a class="btn btn btn-outline-ligh" aria-current="page" href="../carros/novo.php">Cadastrar carro</a>
               </li>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="btn  btn-outline-ligh "  aria-current="page  href="#">Carros</a>
+                    <a class="btn  btn-outline-ligh "  aria-current="page"  href="../carros/selecionar.php">Carros</a>
                   </li>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">

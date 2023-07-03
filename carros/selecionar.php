@@ -25,18 +25,18 @@ include"../includes/conexao.php";
     <?php
     $sql = "select * from t_carros";
     $todos_os_carros = mysqli_query($conexao,$sql);
-    while($um_aluno = mysqli_fetch_assoc($todos_os_carros)):        
+    while($um_carro = mysqli_fetch_assoc($todos_os_carros)):        
     ?>
     <tr >
-    <td><?php echo $um_aluno['veicolo'];?></td>
-    <td><?php echo $um_aluno['cor']; ?></td>
-    <td><?php echo $um_aluno['modelo'];?></td>
-    <td><?php echo $um_aluno['placa']; ?></td>
+    <td><?php echo $um_carro['veicolo'];?></td>
+    <td><?php echo $um_carro['cor']; ?></td>
+    <td><?php echo $um_carro['modelo'];?></td>
+    <td><?php echo $um_carro['placa']; ?></td>
    
     <td>
-        <a href="#">Visualizar</a>
-        <a href="#">Editar</a>
-        <a href="deletar.php?id=<?php echo $um_aluno['id'];?>">Excluir</a>
+        <a href="visualizar.php?id=<?php echo $um_carro['id'];?>">Visualizar</a>
+        <a href="editar.php?id=<?php echo $um_carro['id'];?>">Editar</a>
+        <a href="deletar.php?id=<?php echo $um_carro['id'];?>">Excluir</a>
     </td>
  </tr>
     <?php
