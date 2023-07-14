@@ -23,7 +23,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="btn btn btn-outline-ligh" aria-current="page" href="../index.html">Home</a>
+            <a class="btn btn btn-outline-ligh" aria-current="page" href="../usuarios/index.html">Home</a>
           </li>
 
           <li class="nav-item">
@@ -35,14 +35,17 @@
           </li>
 
           <li class="nav-item">
-            <a class="btn btn-outline-ligh" href="#">Cadastrar usuario</a>
+            <a class="btn btn-outline-ligh" href="../usuarios/novo.php">Cadastrar usuario</a>
           </li>
 
           <li class="nav-item">
-            <a class="btn btn-outline-ligh" href="#">usuario</a>
+            <a class="btn btn-outline-ligh" href="../usuarios/selecionar.php">usuario</a>
           </li>
 
         </ul>
       </div>
     </div>
   </nav>
+
+
+ 

@@ -1,7 +1,7 @@
 <?php
-include "../includes/cabecalho.php";
-include "../includes/menu.php";
-include "../includes/conexao.php";
+include "includes/cabecalho.php";
+include "includes/menu.php";
+include "includes/conexao.php";
 
 
 $id = $_GET['id'];
@@ -61,5 +61,5 @@ endwhile;
 <br>
 <?php
 mysqli_close($conexao);
-include "../includes/rodape.php"
+include "includes/rodape.php"
     ?>

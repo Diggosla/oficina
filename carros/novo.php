@@ -1,6 +1,6 @@
 <?php
-include "../includes/cabecalho.php";
-include "../includes/menu.php";
+include "includes/cabecalho.php";
+include "includes/menu.php";
 ?>
 
 <center>
@@ -48,5 +48,5 @@ include "../includes/menu.php";
 
 </center>
 <?php
-include "../includes/rodape.php";
+include "includes/rodape.php";
 ?>

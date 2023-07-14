@@ -1,5 +1,5 @@
 <?php
-include"../includes/conexao.php";
+include"includes/conexao.php";
 
 
 $veicolo = $_POST["veicolo"];

@@ -1,7 +1,7 @@
 <?php
-include"../includes/cabecalho.php";
-include"../includes/menu.php";
-include"../includes/conexao.php";
+include"includes/cabecalho.php";
+include"includes/menu.php";
+include"includes/conexao.php";
 ?>
 
 <p>
@@ -48,5 +48,5 @@ include"../includes/conexao.php";
 </table>
 
 <?php
-include"../includes/rodape.php";
+include"includes/rodape.php";
 ?>
