@@ -16,42 +16,38 @@
   <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand"><img src="../img/zzzzz.png" style="right: 20px; width: 10x;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="btn btn btn-outline-ligh" aria-current="page" href="../index.html">Home</a>
           </li>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="btn btn btn-outline-ligh" aria-current="page" href="../carros/novo.php">Cadastrar carro</a>
-              </li>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="btn  btn-outline-ligh "  aria-current="page"  href="../carros/selecionar.php">Carros</a>
-                  </li>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="btn btn-outline-ligh" aria-current="page" href="#">Cadastrar usuario</a>
-                      </li>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="btn btn-outline-ligh" aria-current="page" href="#">usuario</a>
-                          </li>
 
+          <li class="nav-item">
+            <a class="btn btn btn-outline-ligh"  href="../carros/novo.php">Cadastrar carro</a>
+          </li>
 
-                      </div>
+          <li class="nav-item">
+            <a class="btn  btn-outline-ligh "  href="../carros/selecionar.php">Carros</a>
+          </li>
 
-                  </div>
-              </div>
+          <li class="nav-item">
+            <a class="btn btn-outline-ligh" href="#">Cadastrar usuario</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="btn btn-outline-ligh" href="#">usuario</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
   </nav>
 
 
   <style>
-    body {
-     
-    }
+    body {}
   </style>
