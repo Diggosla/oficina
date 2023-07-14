@@ -126,7 +126,7 @@ body {
 
 /*======== reponsivo css =======*/
 
-/* @media only screen and (max-width:768px) and (max-width:991px) {
+ @media only screen and (max-width:768px) and (max-width:991px) {
     .carousel-caption {
         bottom:  370px ;
     }
@@ -155,4 +155,31 @@ body {
     .carousel-caption p {
         width: 100%;
     }
-} */
+} 
+
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}

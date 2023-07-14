@@ -18,6 +18,7 @@ include"../includes/conexao.php";
         <td>Cor</td>
         <td>modelo</td>
         <td>Placa</td>
+        <td></td>
     </tr>
 
 <!-- fim da linha titulo -->
@@ -32,6 +33,7 @@ include"../includes/conexao.php";
     <td><?php echo $um_carro['cor']; ?></td>
     <td><?php echo $um_carro['modelo'];?></td>
     <td><?php echo $um_carro['placa']; ?></td>
+   
    
     <td>
         <a href="visualizar.php?id=<?php echo $um_carro['id'];?>">Visualizar</a>
