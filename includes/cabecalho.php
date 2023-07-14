@@ -46,8 +46,3 @@
       </div>
     </div>
   </nav>
-
-
-  <style>
-    body {}
-  </style>
